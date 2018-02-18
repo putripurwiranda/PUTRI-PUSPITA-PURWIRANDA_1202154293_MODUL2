@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.putri_1202154293_modul2.TakeAwayScreen">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Identitas Pemesan :"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="No. Telp"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Alamat"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Catatan"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Pesanan"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="395dp" />
+</android.support.constraint.ConstraintLayout>

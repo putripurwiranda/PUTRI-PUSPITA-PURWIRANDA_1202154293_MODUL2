@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.putri_1202154293_modul2.SplashScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvSplash"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/logo"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+        <TextView
+            android:id="@+id/tvSplash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="76dp"
+            android:text="Rumah Makan Khas Banjar"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="295dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="91dp"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="373dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
